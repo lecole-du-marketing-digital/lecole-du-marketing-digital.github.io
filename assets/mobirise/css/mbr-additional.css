@@ -476,6 +476,16 @@ h6,
 #msg-box6-0 .lead p {
   color: #fff;
 }
+#msg-box5-e H3 {
+  text-align: left;
+}
+#msg-box5-e P {
+  text-align: left;
+}
+#header3-g .mbr-section-title,
+#header3-g .mbr-section-subtitle {
+  text-align: center;
+}
 #menu-2 .hide-buttons .nav-btn {
   display: none !important;
 }

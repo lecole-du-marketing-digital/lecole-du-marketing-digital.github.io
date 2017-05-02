@@ -20,11 +20,11 @@
         "isScrollToTopButton": false
       }
     },
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/note-souris-318-29899-128x128.png",
     "noImageResize": "",
     "google-analytics": "",
     "versionFirst": "3.11.1",
-    "uniqCompNum": 14,
+    "uniqCompNum": 18,
     "versionPublish": "3.11.1"
   },
   "pages": {
@@ -107,7 +107,6 @@
           },
           "logo": {
             "image": {
-              "active": true,
               "src": "@THEME_PATH@/components/_images/logo.png",
               "height": 128,
               "alt": "Mobirise",
@@ -115,12 +114,17 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
+              "linkInNewWindow": false,
+              "name": "globe-2",
+              "family": "MobiriseIcons",
+              "link": "index.html",
+              "size": 0,
+              "newWindow": false,
+              "active": true
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">APPRENDRE LE MARKETING DIGITAL POUR GAGNER DU CASH</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">LES METIERS DU WEB</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"meilleurs cours de marketing digital en 2017.html\">VOIR LES COURS</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">APPRENDRE LE MARKETING DIGITAL POUR GAGNER DU CASH</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"meilleurs cours de marketing digital en 2017.html\">VOIRE LES COURS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"http://formation.bloginfluent.fr/formation-offerte?affiliate_id=655510\" target=\"_blank\">COMMENCEZ GRATUITEMENT</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -137,18 +141,18 @@
           "_params": {
             "imageSize": 50,
             "paddingTop": "3",
-            "paddingBottom": "3",
+            "paddingBottom": "0",
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
+            "bgColor": "#7e9b9f",
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": true,
+            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
+            "overlayOpacity": "0.4",
             "overlayColor": "#000",
             "inverse": true,
             "showTitle": true,
@@ -180,6 +184,133 @@
           "title": "LES MEILLEURS COURS DE WEB MARKETING",
           "text": "$ Ou marketing digital, un metier de rêve qui ne cesse d'êvoluer",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-f",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#7e9b9f"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"http://formation.bloginfluent.fr/formation-offerte?affiliate_id=655510\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">COMMENCEZ À APPRENDRE</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"meilleurs cours de marketing digital en 2017.html\" data-toolbar=\"-mbrBtnMove\">VOIRE LES COURS</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "text-align": "left"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "msg-box5-e",
+          "_params": {
+            "imageSize": "69",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/home-main-left.svg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Ne faite pas comme moi, J'ai perdue Beaucoup de temps à la recherche de solution.",
+          "text": "HORS QUE LA CLÉS C'EST DE SUIVRE UN PROGRAMME, complet et efficace qui vous prend d'un point A à un point B. et vous avez de la chance de tombé sur ce programme GRATUIT d'un jeune web entrepreneur qui gagne dèja plus de 20K€ par mois sur internet.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"http://formation.bloginfluent.fr/formation-offerte?affiliate_id=655510\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>COMMENCEZ AVEC UN PROGRAMME QUI VOUS MÊNE D'UN POINT A à B.</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-g",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Ne perdez pas plus de temps <br>et PASSEZ À L'ACTION",
+          "meta": "SI VOUS FAITE PARTIE DES GENS QUI AGISSENT."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-h",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"http://formation.bloginfluent.fr/formation-offerte?affiliate_id=655510\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Regardez juste les 2 premières minutes, c'est hallucinant.</a> "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-c",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 lecole-du-marketing-digital."
         }
       ]
     },
@@ -258,20 +389,26 @@
           },
           "logo": {
             "image": {
-              "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/logo.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
+              "linkInNewWindow": false,
+              "name": "globe-2",
+              "family": "MobiriseIcons",
+              "link": "index.html",
+              "size": 0,
+              "active": true,
+              "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">APPRENDRE LE MARKETING DIGITAL POUR GAGNER DU CASH</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">LES METIERS DU WEB</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"meilleurs cours de marketing digital en 2017.html\">VOIR LES COURS</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">APPRENDRE LE MARKETING DIGITAL POUR GAGNER DU CASH</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"meilleurs cours de marketing digital en 2017.html\">VOIRE LES COURS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"http://formation.bloginfluent.fr/formation-offerte?affiliate_id=655510\" target=\"_blank\">COMMENCEZ GRATUITEMENT</a></li>"
         },
         {
           "_styles": {
@@ -384,7 +521,7 @@
           },
           "title": "Devenez efficace avec ce programme &nbsp;en 1H de formation video GRATUIT.",
           "text": "Inscrivez vous c'est GRATUIT efficace et Complet.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"http://formation.bloginfluent.fr/formation-offerte?affiliate_id=655510\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>COMMENCEZ À VENDRE EN AUTOMATIQUE GRATUITEMENT $</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"http://formation.bloginfluent.fr/formation-offerte?affiliate_id=655510\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>COMMENCEZ À VENDRE EN AUTOMATIQUE GRATUITEMENT $</a>"
         },
         {
           "_tags": [
@@ -404,6 +541,14 @@
             "Theme"
           ],
           "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "text-align": "left"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
           "_anchor": "msg-box5-7",
           "_params": {
             "imageSize": "69",
@@ -430,7 +575,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/home-main-left.svg",
+              "src": "@PROJECT_PATH@/assets/images/home-main-left1.svg",
               "link": "",
               "alt": "",
               "title": "",
@@ -450,86 +595,7 @@
           },
           "title": "Ne faite pas comme moi, J'ai perdue Beaucoup de temps à la recherche de solution.",
           "text": "Il faut comprendre que la clés c'est de suivre un programme complet et efficace qui vous prend d'un point A à un point B. et vous avez de la chance de tombé sur ce programme gratuit d'un jeune web entrepreneur qui gagne dèja plus de 20K€ par mois sur internet.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"http://formation.bloginfluent.fr/formation-offerte?affiliate_id=655510\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>COMMENCEZ AVEC UN PROGRAMME QUI VOUS MÊNE D'UN POINT A à B.</a>",
-          "_styles": {
-            "H3": {
-              "text-align": "left"
-            },
-            "P": {
-              "text-align": "left"
-            }
-          }
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "testimonials2",
-          "testimonial": [
-            {
-              "text": "<p>“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face3.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Abanoub S.",
-              "authorBio": "User"
-            },
-            {
-              "text": "<p>“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag & drop with no time design bootstrap builder in present web design world.”</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face1.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Suffian A.",
-              "authorBio": "User"
-            },
-            {
-              "text": "<p>“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Jhollman C.",
-              "authorBio": "User"
-            }
-          ],
-          "_anchor": "testimonials2-b",
-          "_params": {
-            "count": 3,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.2,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showSubtitle": true,
-            "showImages": true,
-            "showName": true,
-            "showBio": true
-          },
-          "title": "WHAT OUR FANTASTIC USERS SAY",
-          "subtitle": "Shape your future web project with sharp design and refine coded functions."
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"http://formation.bloginfluent.fr/formation-offerte?affiliate_id=655510\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>COMMENCEZ AVEC UN PROGRAMME QUI VOUS MÊNE D'UN POINT A à B.</a>"
         },
         {
           "_tags": [
@@ -557,9 +623,9 @@
             "showText": true,
             "showTitle": true
           },
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "title": "PRE MADE BLOCKS"
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"http://formation.bloginfluent.fr/formation-offerte?affiliate_id=655510\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">COMMENCEZ GRATUITEMENT ET PROFITEZ S'EN</a>",
+          "text": "Creer votre libérté financière en passant à l'action",
+          "title": "Apprenez le meilleur métier EN 2017"
         },
         {
           "_tags": [
@@ -579,7 +645,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 Mobirise."
+          "text": "Copyright (c) 2016 lecole-du-marketing-digital."
         }
       ]
     }
